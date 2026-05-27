@@ -1,0 +1,9 @@
+---
+# TODO: Add the initial playbook entrypoint that wraps stackhpc/ansible-role-openhpc.
+- name: Placeholder playbook for OpenHPC Slurm testbed
+  hosts: all
+  gather_facts: false
+  tasks:
+    - name: Placeholder task
+      ansible.builtin.debug:
+        msg: "TODO: define cluster bootstrap workflow"

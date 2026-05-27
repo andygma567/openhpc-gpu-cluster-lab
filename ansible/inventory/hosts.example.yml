@@ -1,0 +1,14 @@
+# Example inventory placeholder for the Slurm testbed.
+# TODO: Replace hostnames, addresses, and grouping with real lab-specific values.
+all:
+  children:
+    slurm_controllers:
+      hosts:
+        controller-01:
+          ansible_host: TODO_CONTROLLER_IP
+    gpu_workers:
+      hosts:
+        gpu-node-01:
+          ansible_host: TODO_GPU_NODE_IP
+    cloud_workers:
+      hosts: {}
