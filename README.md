@@ -13,6 +13,10 @@ The initial focus is on evaluating and building on top of [`stackhpc/ansible-rol
 
 The intent is to keep the repository lightweight and ready for iterative experimentation rather than to provide production-ready infrastructure.
 
+# Requirements 
+
+- RHEL is a requirement for the OS. Ubuntu is not supported
+
 ## Goals
 
 - Evaluate `stackhpc/ansible-role-openhpc` for Slurm-based cluster deployment.
